@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(135deg, #171c20, #cddad2); /* Adjust colors as needed */
+    color: white;
+  }
+  .card{
+    background-image: linear-gradient(135deg, #171c20, #cddad2);
+    height: 120vh;
+    color: white;
+  }

@@ -1,0 +1,64 @@
+/* Project.css */
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #11111f;
+}
+.project-card {
+    border: 1px solid #ddd;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 16px;
+    background-color: #101413;
+    box-shadow: 0 4px 8px rgba(245, 231, 231, 0.1);
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+  
+  .project-image {
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 1%;
+    align-items: center;
+  }
+  
+  .project-details {
+    padding: 16px;
+    color: whitesmoke;
+  }
+  
+  .project-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .project{
+    align-items: center;
+  }
+  .languages-used {
+    color: #555;
+    margin-bottom: 16px;
+  }
+  
+  .visit-website-button {
+    display: block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+  

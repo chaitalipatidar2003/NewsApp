@@ -1,0 +1,82 @@
+/* Navbar.css */
+#root {
+    margin: 0;
+    padding: 0;
+  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #071118;
+    color: #ecf0f1;
+  }
+  
+  /* Update styling for left and right links */
+  .navbar-left ul,
+  .navbar-right ul,
+  .navbar-left ul a,
+  .navbar-right ul a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-left li,
+  .navbar-right li,
+  .navbar-left ul a,
+  .navbar-right ul a {
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none; /* Remove underline */
+    align-items: center;
+  }
+  
+  /* Update styling for center logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white; /* Set heading color to white */
+  }
+  
+  .logo svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* Update styling for right links */
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-right a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+    }
+  
+    .navbar li {
+      display: flex;
+      flex-direction: column;
+      margin: 5px 0;
+      width: 80px;
+    }
+  
+    .navbar-left,
+    .navbar-right {
+      display: none;
+      width: 90vw;
+    }
+  
+    .navigation-buttons {
+      padding: 20px;
+    }
+  }
+  

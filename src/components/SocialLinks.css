@@ -1,0 +1,75 @@
+/* SocialLinks.css */
+#root {
+    margin: 0;
+    padding: 0;
+  }
+.extra-items {
+    margin-top: 20px;
+  }
+  
+  .extra-items h3 {
+    color: #f39c12; /* Heading color */
+  }
+  
+  .extra-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .extra-items li {
+    margin: 5px 0;
+    color: #888; /* Item text color */
+  }
+.social-links-container {
+    background: -webkit-linear-gradient(left, #141e30, #243b55); /* Webkit linear gradient background */
+    background: linear-gradient(to right, #141e30, #243b55); /* Standard linear gradient background */
+    text-align: center;
+    padding: 20px;
+    color: white;
+   height: 70.5vh;
+   padding-bottom: -30px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    font-size: 40px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #fffaf2; /* Change color on hover, adjust as needed */
+  }
+  
+  .linkedin {
+    color: #dfc8c5; /* LinkedIn color */
+  }
+  
+  .github {
+    color: #dfc8c5; /* GitHub color */
+  }
+  
+  .gmail {
+    color: #dfc8c5; /* Gmail color */
+  }
+  
+  /* Add more styles as needed */
+  img{
+    width: 800px;
+    height:300px;
+    background-size: cover;
+    margin: 0;
+    padding-bottom: -80px;
+  }
+  .footer-container{
+    display: none;
+}
+img{
+    border-radius: 80%;
+}
